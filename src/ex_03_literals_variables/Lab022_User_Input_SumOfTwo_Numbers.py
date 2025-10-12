@@ -2,7 +2,7 @@
 #Step1
 #I/P = num1, num2 (int)
 #O/P = sum, mul, div, sub (always ask from the interviewer), float
-
+#Step2 = Rough logic
 num1 = float(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 # Output
