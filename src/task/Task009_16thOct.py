@@ -11,7 +11,7 @@
 #
 # For the Fail condition Other O/P = ❌ Invalid Credentials
 
-username = input("enter your username: ").strip
+username = input("enter your username: ").strip ()
 password = input("enter your password: ").strip()
 
 if username == "admin" and password == "1234":
