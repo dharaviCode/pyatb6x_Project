@@ -3,6 +3,11 @@
 #i/p - int side1 == side2 =side3 → isoceles
 #o/p = result in string - iso, eq, scalene
 
+#i/o
+side1 = int(input("enter the side1: "))
+side2 = int(input("enter the side2: "))
+side3 = int(input("enter the side3: "))
+
 #declare/define
 def triangle_type(side1, side2, side3):
 
@@ -19,8 +24,5 @@ def triangle_type(side1, side2, side3):
         print("Fails triangle inequality")
 
 #calling function
-side1 = int(input("enter the side1: "))
-side2 = int(input("enter the side2: "))
-side3 = int(input("enter the side3: "))
 
 triangle_type(side1, side2, side3)
