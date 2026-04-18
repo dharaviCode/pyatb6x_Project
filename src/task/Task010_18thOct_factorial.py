@@ -13,7 +13,8 @@ elif num == 0: #Edge case
 else:
     for i in range(1, num + 1):  #main logic
         fact = fact * i
-    print("Factorial of:", num, "is", fact)
+
+print("Factorial of:", num, "is", fact)
 
 
 """
